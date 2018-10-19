@@ -2,5 +2,9 @@ def badge_maker(name)
    "Hello, my name is #{name}."
 end
 def batch_badge_creator(array)
-  badge_maker(name) = array
+  i = 0
+  while i < array.length
+    array
+    i += 1
+  end
 end
